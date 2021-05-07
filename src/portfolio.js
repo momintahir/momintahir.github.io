@@ -12,7 +12,7 @@ export const greetings = {
 }
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'momintahir',
 };
 
 export const contact = {
