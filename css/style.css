@@ -123,7 +123,7 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-	background: linear-gradient(135deg, rgb(1, 129, 65), rgb(1, 2, 3));
+	background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63));
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -138,7 +138,7 @@ figure figcaption {
 		-o-transform: translateX(-300px);
 		transform: translateX(-300px);
 		padding-top: 4em;
-		background-color: #014122;
+		background-color: #f9bf3f;
 		height: -webkit-fill-available;
 		left: 0px;
 	}
@@ -506,7 +506,7 @@ body.offcanvas #colorlib-aside {
 	-o-transform: translateX(0);
 	transform: translateX(0);
 	width: 372px;
-	background-color: #008000;
+	background-color: #f9bf3f;
 	z-index: 999;
 	position: fixed;
 }
