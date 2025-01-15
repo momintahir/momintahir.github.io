@@ -1,6 +1,6 @@
 export const bio = [
   "Hello, I'm Momin Tahir!",
-  "I am a skilled <strong>Android Engineer<strong> proficient in Kotlin, Java, Jetpack Compose, and modern Android development. With expertise in software design, architecture, and mobile infrastructure, I excel in collaborating with product teams and delivering innovative, mobile-first applications. I'm a quick learner, passionate about tackling challenges and working directly with clients.",
+  "I am a skilled <strong>Android Engineer</strong> proficient in Kotlin, Java, Jetpack Compose, and modern Android development. With expertise in software design, architecture, and mobile infrastructure, I excel in collaborating with product teams and delivering innovative, mobile-first applications. I'm a quick learner, passionate about tackling challenges and working directly with clients.",
   "Beyond coding, I enjoy traveling through the serene <strong>Himalayan mountains</strong> and experimenting with new recipes in the <strong>kitchen</strong>.",
 ];
 
