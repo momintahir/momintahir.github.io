@@ -19,7 +19,7 @@ body {
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 1.8 !important;
-    color: white;
+	color: black;
 }
 @media screen and (max-width: 992px) {
 	body {
@@ -864,7 +864,7 @@ body.offcanvas .colorlib-nav-toggle {
 	.timeline-entry
 	.timeline-entry-inner
 	.timeline-icon.color-3 {
-	background: #008000;
+	background: #f9bf3f;
 }
 .timeline-centered
 	.timeline-entry
@@ -890,7 +890,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
 	position: relative;
-	background: linear-gradient(135deg, rgb(0, 128, 0), rgb(0, 128, 0));
+	background: linear-gradient(135deg, rgb(255, 221, 153), rgb(249, 191, 63));
 	color: #000;
 	padding: 1.5em;
 	margin-left: 60px;
