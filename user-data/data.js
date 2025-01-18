@@ -10,12 +10,12 @@ export const skills = [
 
 export const experience = [
   {
-    title: "Shiprocket Private Limited",
-    duration: "September 2023 - Present",
-    subtitle: "Software Engineer",
-    details: ["Working in support and escalation team."],
-    tags: ["JavaScript", "Angular", "Bootstrap", "AngularJs"],
-    icon: "truck ",
+    title: "Allied Consultants",
+    duration: "October 2021 - Present",
+    subtitle: "Senior Android Engineer",
+    details: ["Refactored the app’s codebase, improving performance by 20% and reducing crash rates by 15%.","Integrated third-party libraries and APIs (Retrofit, Glide, Firebase) to enhance app functionality, resulting in a seamless user experience and increased user engagement.","Modularized the project, reducing codebase complexity by 35% and improving Gradle build time.","Led the team in switching to Compose for Android development, which made the code simpler and improved the app's performance.", "Worked closely with cross-functional teams to ensure seamless integration of new features and timely delivery of projects."],
+    tags: ["Compose", "Kotlin", "MVVM", "Clean Architecture","Solid Principles" ,"Google Maps"],
+    icon: "",
   },
   {
     title: "Biofourmis India Private Limited",
