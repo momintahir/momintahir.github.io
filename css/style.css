@@ -163,7 +163,7 @@ figure figcaption {
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
 	border-radius: 50%;
-	 border: 3px solid white; 
+	/* border: 3px solid white; */
 }
 
 #colorlib-aside .author-img img{
