@@ -496,6 +496,39 @@ figure figcaption {
 	}
 }
 
+
+.icon-container {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.github { background-color: #333; background-image: url('https://cdn-icons-png.flaticon.com/512/733/733553.png'); background-size: cover; }
+.linkedin { background-color: #0077b5; background-image: url('https://cdn-icons-png.flaticon.com/512/145/145807.png'); background-size: cover; }
+.email { background-color: #ea4335; background-image: url('https://cdn-icons-png.flaticon.com/512/732/732200.png'); background-size: cover; }
+.gitlab { background-color: #fc6d26; background-image: url('https://cdn-icons-png.flaticon.com/512/5968/5968866.png'); background-size: cover; }
+.facebook { background-color: #3b5998; background-image: url('https://cdn-icons-png.flaticon.com/512/733/733547.png'); background-size: cover; }
+.medium { background-color: #000; background-image: url('https://cdn-icons-png.flaticon.com/512/5968/5968906.png'); background-size: cover; }
+.stackoverflow { background-color: #f48024; background-image: url('https://cdn-icons-png.flaticon.com/512/2111/2111628.png'); background-size: cover; }
+
+
 body.offcanvas {
 	overflow-x: hidden;
 }

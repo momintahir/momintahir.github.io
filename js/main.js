@@ -120,6 +120,11 @@
   };
 
     
+    document.querySelectorAll('.icon').forEach((icon) => {
+      icon.addEventListener('click', () => {
+        console.log(`Navigating to ${icon.getAttribute('href') || 'email link'}`);
+      });
+    });
 
     
     
