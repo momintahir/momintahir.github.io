@@ -138,7 +138,7 @@ figure figcaption {
 		-o-transform: translateX(-300px);
 		transform: translateX(-300px);
 		padding-top: 4em;
-		background-color: #f9bf3f;
+		background-color: #7f52ff;
 		height: -webkit-fill-available;
 		left: 0px;
 	}
@@ -506,7 +506,7 @@ body.offcanvas #colorlib-aside {
 	-o-transform: translateX(0);
 	transform: translateX(0);
 	width: 372px;
-	background-color: #f9bf3f;
+	background-color: #7f52ff;
 	z-index: 999;
 	position: fixed;
 }
@@ -654,7 +654,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .hire {
 	padding: 2em;
-	background: #f9bf3f;
+	background: #7f52ff;
 	color: #000;
 	border-radius: 4px;
 }
@@ -818,7 +818,7 @@ body.offcanvas .colorlib-nav-toggle {
 	position: absolute;
 	display: block;
 	width: 4px;
-	background: #f9bf3f;
+	background: #7f52ff;
 	top: 20px;
 	bottom: 20px;
 	margin-left: 29px;
@@ -864,7 +864,7 @@ body.offcanvas .colorlib-nav-toggle {
 	.timeline-entry
 	.timeline-entry-inner
 	.timeline-icon.color-3 {
-	background: #f9bf3f;
+	background: #7f52ff;
 }
 .timeline-centered
 	.timeline-entry
@@ -983,10 +983,10 @@ body.offcanvas .colorlib-nav-toggle {
 	color: #ec5453;
 }
 .services.color-3 {
-	border-bottom: 2px solid #f9bf3f;
+	border-bottom: 2px solid #7f52ff;
 }
 .services.color-3 .icon2 i {
-	color: #f9bf3f;
+	color: #7f52ff;
 }
 .services.color-4 {
 	border-bottom: 2px solid #a84cb8;
@@ -1077,13 +1077,13 @@ body.offcanvas .colorlib-nav-toggle {
 	border-color: #ec5453 transparent transparent transparent;
 }
 .services.color-3 .icon {
-	background: #f9bf3f;
+	background: #7f52ff;
 }
 .services.color-3 .icon:before {
-	border-color: transparent transparent #f9bf3f transparent;
+	border-color: transparent transparent #7f52ff transparent;
 }
 .services.color-3 .icon:after {
-	border-color: #f9bf3f transparent transparent transparent;
+	border-color: #7f52ff transparent transparent transparent;
 }
 .services.color-4 .icon {
 	background: #a84cb8;
@@ -1870,8 +1870,8 @@ ul {
 	width: 100%;
 	padding-left: 0px;
 	padding-right: 0px;
-	/* background: #f9bf3f; */
-	border: 1px solid #f9bf3f;
+	/* background: #7f52ff; */
+	border: 1px solid #7f52ff;
 	color: #000;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -2194,6 +2194,6 @@ hr {
 
   .dark-mode {
 	strong {
-		color: #f9bf3f;
+		color: #7f52ff;
 	}
   }
