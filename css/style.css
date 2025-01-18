@@ -252,7 +252,7 @@ figure figcaption {
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover {
 	text-decoration: none;
-	color: black;
+    color: white;
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover:after {
 	visibility: visible;
