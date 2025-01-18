@@ -121,55 +121,35 @@
 
     
     
-    
-    
-    
-    
-    
-    
-    var scrollToSection = function (section) {
-      var $targetSection = $('section[data-section="' + section + '"]');
-      if ($targetSection.length) {
-        $("html, body").animate(
-          {
-            scrollTop: $targetSection.offset().top - 55, // Offset for fixed header
-          },
-          800
-        );
-      }
-      // Highlight active menu item
-      $("#navbar ul li").removeClass("active");
-      $('#navbar ul li a[data-nav-section="' + section + '"]')
-        .closest("li")
-        .addClass("active");
-    };
+    $(document).ready(function () {
+      var scrollToSection = function (section) {
+        var $targetSection = $('section[data-section="' + section + '"]');
+        if ($targetSection.length) {
+          $("html, body").animate(
+            {
+              scrollTop: $targetSection.offset().top - 55, // Offset for fixed header
+            },
+            800
+          );
+        } else {
+          console.error("Section not found: ", section);
+        }
 
-    // Attach event listener for clicks
-    $(document).on("click", '[data-nav-section]', function (event) {
-      event.preventDefault();
-      var section = $(this).data("nav-section");
-      scrollToSection(section);
+        // Highlight active menu item
+        $("#navbar ul li").removeClass("active");
+        $('#navbar ul li a[data-nav-section="' + section + '"]')
+          .closest("li")
+          .addClass("active");
+      };
+
+      // Attach event listener for clicks
+      $(document).on("click", '[data-nav-section]', function (event) {
+        event.preventDefault();
+        var section = $(this).data("nav-section");
+        scrollToSection(section);
+      });
     });
-//
-//    
-//    
-//    
-//    var mobileMenuToggle = function () {
-//      $(".js-colorlib-nav-toggle").on("click", function (event) {
-//        event.preventDefault();
-//        $("body").toggleClass("offcanvas");
-//        $(this).toggleClass("active");
-//      });
-//
-//      $(document).click(function (e) {
-//        var $container = $("#colorlib-aside, .js-colorlib-nav-toggle");
-//        if (!$container.is(e.target) && $container.has(e.target).length === 0) {
-//          $("body").removeClass("offcanvas");
-//          $(".js-colorlib-nav-toggle").removeClass("active");
-//        }
-//      });
-//    };
-    
+
     
     
     
