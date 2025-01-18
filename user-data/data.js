@@ -116,15 +116,15 @@ export const footer = [
   //     data: [
   //       {
   //         text: "Stackoverflow",
-  //         link: "https://stackoverflow.com/users/8461233/vinay-somawat",
+  //         link: "https://stackoverflow.com/users/7854698/momin-tahir",
   //       },
   //       {
   //         text: "GitHub",
-  //         link: "https://github.com/vinaysomawat",
+  //         link: "https://github.com/momintahir",
   //       },
   //       {
   //         text: "LeetCode",
-  //         link: "https://leetcode.com/somawatvinay/",
+  //         link: "https://leetcode.com/u/momin-tahir/",
   //       },
   //     ],
   //   },
@@ -150,11 +150,11 @@ export const footer = [
     data: [
       //   {
       //     text: "Linkedin",
-      //     link: "https://www.linkedin.com/in/vinaysomawat/",
+      //     link: "https://www.linkedin.com/in/momin-tahir/",
       //   },
       //   {
-      //     text: "Twitter",
-      //     link: "https://twitter.com/thesigmakid",
+      //     text: "Github",
+      //     link: "https://github.com/momintahir",
       //   },
       {
         text: "Buy me a coffee",
@@ -162,12 +162,12 @@ export const footer = [
       },
       {
         text: "Github",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+        link: "https://github.com/momintahir",
       },
     ],
   },
   {
     label: "copyright-text",
-    data: ["Made with &hearts; by Vinay Somawat"],
+    data: ["Made with &hearts; by Momin Tahir"],
   },
 ];
