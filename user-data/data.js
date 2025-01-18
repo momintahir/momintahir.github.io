@@ -75,9 +75,9 @@ export const trekking = [
 
 export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "BS Computer Science",
+    duration: "2013 - 2017",
+    subtitle: "Comsats University, Lahore,Pakistan",
     details: [],
     tags: [
       "Data Structures & Algorithms",
@@ -85,14 +85,14 @@ export const education = [
       "Database Management System",
       "Computer Networks",
       "Compiler Designing",
-      "Cloud Computing",
+      "OOP Programming",
     ],
     icon: "graduation-cap",
   },
   {
-    title: "Class 12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
+    title: "FSC - Pre Engineering",
+    duration: "2010 - 2012",
+    subtitle: "Punjab College, Lahore,Pakistan",
     details: [],
     tags: ["Physics", "Chemistry", "Mathematics"],
     icon: "book",
