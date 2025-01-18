@@ -293,22 +293,26 @@ function populateExp_Edu(items, id) {
     let spanTimelineSublabel = document.createElement("span");
     spanTimelineSublabel.className = "timeline-sublabel";
     spanTimelineSublabel.innerHTML = items[i].subtitle;
+      spanTimelineSublabel.style = "color: #ffffff;"
 
     let spanh2 = document.createElement("span");
     spanh2.innerHTML = items[i].duration;
 
     let h2TimelineLabel = document.createElement("h2");
     h2TimelineLabel.innerHTML = items[i].title;
+      h2TimelineLabel.style ="color: #ffffff;"
     h2TimelineLabel.append(spanh2);
 
     let divTimelineLabel = document.createElement("div");
     divTimelineLabel.className = "timeline-label";
+      divTimelineLabel.style = "color: #ffffff;"
     divTimelineLabel.append(h2TimelineLabel);
     divTimelineLabel.append(spanTimelineSublabel);
 
     for (let j = 0; j < items[i].details.length; j++) {
       let pTimelineText = document.createElement("p");
       pTimelineText.className = "timeline-text";
+        pTimelineText.style = "color: #ffffff;"
       pTimelineText.innerHTML = "&blacksquare; " + items[i].details[j];
       divTimelineLabel.append(pTimelineText);
     }
