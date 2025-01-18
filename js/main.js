@@ -108,16 +108,47 @@
     });
   };
 
-  var navActive = function (section) {
-    var $el = $("#navbar > ul");
-    $el.find("li").removeClass("active");
-    $el.each(function () {
-      $(this)
-        .find('a[data-nav-section="' + section + '"]')
-        .closest("li")
-        .addClass("active");
+//  var navActive = function (section) {
+//    var $el = $("#navbar > ul");
+//    $el.find("li").removeClass("active");
+//    $el.each(function () {
+//      $(this)
+//        .find('a[data-nav-section="' + section + '"]')
+//        .closest("li")
+//        .addClass("active");
+//    });
+//  };
+    
+    var navActive = function (section) {
+      // Activate the navigation menu item
+      var $el = $("#navbar > ul");
+      $el.find("li").removeClass("active");
+      $el.each(function () {
+        $(this)
+          .find('a[data-nav-section="' + section + '"]')
+          .closest("li")
+          .addClass("active");
+      });
+
+      // Scroll to the target section
+      var $targetSection = $("#" + section);
+      if ($targetSection.length) {
+        $("html, body").animate(
+          {
+            scrollTop: $targetSection.offset().top,
+          },
+          800 // Duration of the scrolling animation
+        );
+      }
+    };
+
+    // Attach the click event listener to all elements with the data-nav-section attribute
+    $('[data-nav-section]').on('click', function (event) {
+      event.preventDefault(); // Prevent the default link or button action
+      var section = $(this).data('nav-section'); // Get the target section
+      navActive(section); // Call the function
     });
-  };
+    
 
   var navigationSection = function () {
     var $section = $("section[data-section]");
