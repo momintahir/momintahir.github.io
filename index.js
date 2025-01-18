@@ -231,14 +231,14 @@ function populateRepo(items, id) {
     const repoName = document.createElement("h4");
     repoName.className = "repo-heading";
     repoName.innerHTML = items[i].name;
-    repoName.style = "margin: 0; font-size: 18px; font-weight: bold;";
+    repoName.style = "margin: 0; font-size: 18px; font-weight: bold; color: white";
     repoLink.appendChild(repoName);
 
     // Repository description
     const repoDescription = document.createElement("p");
     repoDescription.className = "repo-description";
     repoDescription.innerHTML = items[i].description;
-    repoDescription.style = "margin-top: 8px; font-size: 12px; color: #555;";
+    repoDescription.style = "margin-top: 8px; font-size: 12px; color: #ffffff;";
     repoLink.appendChild(repoDescription);
 
     // Stats row (Language, Stars, Forks)
