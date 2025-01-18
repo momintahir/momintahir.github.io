@@ -138,7 +138,7 @@ function populateBlogs(items, id) {
       const blogLink = document.createElement("a");
       blogLink.href = items[i].link;
       blogLink.target = "_blank";
-      blogLink.style = "text-decoration: none; color: black; display: block;";
+      blogLink.style = "text-decoration: none; color: white; display: block;";
 
       blogCard.appendChild(blogLink);
 
@@ -146,14 +146,14 @@ function populateBlogs(items, id) {
       const blogTitle = document.createElement("h4");
       blogTitle.className = "blog-heading";
       blogTitle.innerHTML = items[i].title;
-      blogTitle.style = "margin: 0 0 8px; font-size: 18px; font-weight: bold;";
+      blogTitle.style = "margin: 0 0 8px; font-size: 18px; font-weight: bold; color: #ffffff;";
       blogLink.appendChild(blogTitle);
 
       // Publish Date
       const pubDateEle = document.createElement("p");
       pubDateEle.className = "publish-date";
       pubDateEle.innerHTML = getBlogDate(items[i].pubDate);
-      pubDateEle.style = "margin: 0 0 12px; font-size: 12px; color: #555;";
+      pubDateEle.style = "margin: 0 0 12px; font-size: 12px; color: #ffffff;";
       blogLink.appendChild(pubDateEle);
 
       // Blog Description
@@ -162,7 +162,7 @@ function populateBlogs(items, id) {
       const html = items[i].content;
       const [, doc] = /<p>(.*?)<\/p>/g.exec(html) || [];
       blogDescription.innerHTML = doc;
-      blogDescription.style = "margin: 0 0 12px; font-size: 12px; color: #666;";
+      blogDescription.style = "margin: 0 0 12px; font-size: 12px; color: #ffffff;";
       blogLink.appendChild(blogDescription);
 
       // Categories (Tags)
