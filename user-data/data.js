@@ -1,13 +1,11 @@
 export const bio = [
-  "Hello, I'm Vinay Somawat!",
-  "I’m a passionate and experienced <strong>Frontend Engineer</strong> specializing in developing dynamic web applications using Angular and React. I thrive on optimizing performance and delivering innovative, user-focused solutions.",
-  "Beyond coding, I enjoy traveling through the serene <strong>Himalayan mountains</strong> and experimenting with new recipes in the <strong>kitchen</strong>.",
+  "Hello, I'm Momin Tahir!",
+  "I am a highly skilled <strong>Android Software Engineer</strong> with a strong proficiency in Kotlin, Java, and Jetpack Compose, as well as contemporary Android development methodologies. Throughout my career, I have successfully collaborated with product design teams to create mobile-first applications, and I have acquired extensive knowledge in mobile platform infrastructure, testing, debugging, and agile methodologies. Moreover, I have experience in dealing with clients directly and I am a quick learner when it comes to programming so I am always up for a challenge. I am experienced in software design and architecture, and I am passionate about presenting innovative mobile development concepts."
 ];
 
 export const skills = [
-  "JavaScript, TypeScript, Angular, RxJS, NGRX/NGXS",
-  "HTML, Bootstrap, Tailwind",
-  "GitHub, Debugging, Chrome DevTools",
+  "Kotlin, Java, Jetpack Compose UI/UX Design, Kotlin Multiplatform Mobile, Analytical skills,Software Architecture & Design",
+  "GitHub, Debugging",
 ];
 
 export const experience = [
