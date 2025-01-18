@@ -13,8 +13,8 @@ export const experience = [
     title: "Allied Consultants",
     duration: "October 2021 - Present",
     subtitle: "Senior Android Engineer",
-    details: ["Working confedential project where user can play an earn rewards","Refactored the app’s codebase, improving performance by 20% and reducing crash rates by 15%.","Integrated third-party libraries and APIs (Retrofit, Glide, Firebase) to enhance app functionality, resulting in a seamless user experience and increased user engagement.","Modularized the project, reducing codebase complexity by 35% and improving Gradle build time.","Led the team in switching to Compose for Android development, which made the code simpler and improved the app's performance.", "Worked closely with cross-functional teams to ensure seamless integration of new features and timely delivery of projects."],
-    tags: ["Compose", "Kotlin", "MVVM", "Clean Architecture","Solid Principles" ,"Google Maps"],
+    details: ["Working confedential project where user can play an earn rewards", "Refactored the app’s codebase, improving performance by 20% and reducing crash rates by 15%.", "Integrated third-party libraries and APIs (Retrofit, Glide, Firebase) to enhance app functionality, resulting in a seamless user experience and increased user engagement.", "Modularized the project, reducing codebase complexity by 35% and improving Gradle build time.", "Led the team in switching to Compose for Android development, which made the code simpler and improved the app's performance.", "Worked closely with cross-functional teams to ensure seamless integration of new features and timely delivery of projects."],
+    tags: ["Compose", "Kotlin", "MVVM", "Clean Architecture", "Solid Principles", "Google Maps"],
     icon: "",
   },
   {
@@ -22,20 +22,19 @@ export const experience = [
     duration: "November 2019 - October 2021",
     subtitle: "Senior Android Developer",
     details: [
-        "Facelift Cloud: This app combines relevant components for social media marketing into a single scalable enterprise solution",
+      "Facelift Cloud: This app combines relevant components for social media marketing into a single scalable enterprise solution",
       "Collaborated with backend teams to integrate RESTful APIs, ensuring smooth data exchange between the app and the server.",
-      
       "Increased user retention by 15% through enhanced user interaction features.",
-        "KTrade: It's a trading and investing app",
+      "KTrade: It's a trading and investing app",
       "Led the team in switching to Kotlin for Android development, which made the code simpler and improved the app's performance and reduced crash rates by 25%",
       "Fixed real time data update issues which improved customer satisfaction.",
       "Improved login waiting time which boosted user engagement by 20%",
-        "e-Falah & Alfa SDK: Created an android library of Alfa Securities which supports the Bank Alfalah app.",
+      "e-Falah & Alfa SDK: Created an android library of Alfa Securities which supports the Bank Alfalah app.",
       "Created a library of e-falah app which allows user to trade real time",
       "Reduced codebase complexity by 30% and improving Gradle build time",
       "Updated libraries to allow this library to support older Android Sdk’s",
     ],
-      tags: ["Java","Git", "Kotlin","Sockets", "MVVM", "Clean Architecture","Retrofit"],
+    tags: ["Java", "Git", "Kotlin", "Sockets", "MVVM", "Clean Architecture", "Retrofit"],
     icon: "",
   },
   {
@@ -43,12 +42,12 @@ export const experience = [
     duration: "December 2018 - November 2019",
     subtitle: "Software Engineer",
     details: [
-        "ARD Pro: It’s an app about virtual procedures to identify a disabled child and to provide them with an environment where they can overcome their disability."
-     "Developed this app from scratch using MVVM architecture and modularized approach",
+      "ARD Pro: It’s an app about virtual procedures to identify a disabled child and to provide them with an environment where they can overcome their disability.",
+      "Developed this app from scratch using MVVM architecture and modularized approach",
       "Implemented sockets for real time chat",
-     "Collaborated with backend teams to integrate RESTful APIs",
+      "Collaborated with backend teams to integrate RESTful APIs",
     ],
-    tags: ["Android","Sockets", "Java", "MVVM", "Java Mail Api", "Json/Html Parsing"],
+    tags: ["Android", "Sockets", "Java", "MVVM", "Java Mail Api", "Json/Html Parsing"],
     icon: "",
   },
   {
@@ -57,12 +56,12 @@ export const experience = [
     subtitle: "Android Developer",
     details: [
       "Developed and maintained multiple Android applications, contributing to a 20% increase in user engagement through performance improvements and new feature implementations.",
-              "Collaborated with backend teams to integrate RESTful APIs, ensuring smooth data exchange between the app and the server.",
+      "Collaborated with backend teams to integrate RESTful APIs, ensuring smooth data exchange between the app and the server.",
       "Implemented automated testing strategies, reducing bug occurrence in production by 40%.",
       "Some of those projects are: La Voice, ShareNGo, Tasbih, Avaster, Barcel USA, QR Code Scanner, Photo BG changer"
     ],
-    tags: ["Android","Sockets", "Java", "MVVM","Kotlin", "Clean Architecture", "Testing"],
-    icon: ""
+    tags: ["Android", "Sockets", "Java", "MVVM", "Kotlin", "Clean Architecture", "Testing"],
+    icon: "",
   },
 ];
 
@@ -101,51 +100,9 @@ export const education = [
 ];
 
 export const footer = [
-  //   {
-  //     label: "Dev Profiles",
-  //     data: [
-  //       {
-  //         text: "Stackoverflow",
-  //         link: "https://stackoverflow.com/users/7854698/momin-tahir",
-  //       },
-  //       {
-  //         text: "GitHub",
-  //         link: "https://github.com/momintahir",
-  //       },
-  //       {
-  //         text: "LeetCode",
-  //         link: "https://leetcode.com/u/momin-tahir/",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     label: "Resources",
-  //     data: [
-  //       {
-  //         text: "Enable Dark/Light Mode",
-  //         func: "enableDarkMode()",
-  //       },
-  //       {
-  //         text: "Print this page",
-  //         func: "window.print()",
-  //       },
-  //       {
-  //         text: "Clone this page",
-  //         link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
-  //       },
-  //     ],
-  //   },
   {
     label: "Links",
     data: [
-      //   {
-      //     text: "Linkedin",
-      //     link: "https://www.linkedin.com/in/momin-tahir/",
-      //   },
-      //   {
-      //     text: "Github",
-      //     link: "https://github.com/momintahir",
-      //   },
       {
         text: "Buy me a coffee",
         link: "https://www.buymeacoffee.com/r194dME8y",
