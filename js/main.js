@@ -108,124 +108,67 @@
     });
   };
 
-//  var navActive = function (section) {
-//    var $el = $("#navbar > ul");
-//    $el.find("li").removeClass("active");
-//    $el.each(function () {
-//      $(this)
-//        .find('a[data-nav-section="' + section + '"]')
-//        .closest("li")
-//        .addClass("active");
-//    });
-//  };
-    
-//    var navActive = function (section) {
-//      // Activate the navigation menu item
-//      var $el = $("#navbar > ul");
-//      $el.find("li").removeClass("active");
-//      $el.each(function () {
-//        $(this)
-//          .find('a[data-nav-section="' + section + '"]')
-//          .closest("li")
-//          .addClass("active");
-//      });
-//
-//      // Scroll to the target section
-//      var $targetSection = $("#" + section);
-//      if ($targetSection.length) {
-//        $("html, body").animate(
-//          {
-//            scrollTop: $targetSection.offset().top,
-//          },
-//          800 // Duration of the scrolling animation
-//        );
-//      }
-//    };
-//
-//    // Attach the click event listener to all elements with the data-nav-section attribute
-//    $('[data-nav-section]').on('click', function (event) {
-//      event.preventDefault(); // Prevent the default link or button action
-//      var section = $(this).data('nav-section'); // Get the target section
-//      navActive(section); // Call the function
-//    });
-//    
-
-//    
-//    // Scroll and activate the navigation for the given section
-//    var scrollToSection = function (section) {
-//      // Smoothly scroll to the target section
-//      var $targetSection = $("#" + section);
-//      if ($targetSection.length) {
-//        $("html, body").animate(
-//          {
-//            scrollTop: $targetSection.offset().top,
-//          },
-//          800 // Duration of the scrolling animation
-//        );
-//      }
-//
-//      // Highlight the navigation item
-//      var $el = $("#navbar > ul");
-//      $el.find("li").removeClass("active");
-//      $el.each(function () {
-//        $(this)
-//          .find('a[data-nav-section="' + section + '"]')
-//          .closest("li")
-//          .addClass("active");
-//      });
-//    };
-//
-//    // Add event listener for both nav links and button
-//    $('[data-nav-section]').on('click', function (event) {
-//      event.preventDefault(); // Prevent default behavior
-//      var section = $(this).data('nav-section'); // Get the section to navigate to
-//      scrollToSection(section); // Call the scrollToSection function
-//    });
-
-    
-    
-    var scrollToSection = function (section) {
-      var $targetSection = $('section[data-section="' + section + '"]');
-      if ($targetSection.length) {
-        $("html, body").animate(
-          {
-            scrollTop: $targetSection.offset().top - 55, // Offset for fixed header
-          },
-          800
-        );
-      }
-      // Highlight active menu item
-      $("#navbar ul li").removeClass("active");
-      $('#navbar ul li a[data-nav-section="' + section + '"]')
+  var navActive = function (section) {
+    var $el = $("#navbar > ul");
+    $el.find("li").removeClass("active");
+    $el.each(function () {
+      $(this)
+        .find('a[data-nav-section="' + section + '"]')
         .closest("li")
         .addClass("active");
-    };
-
-    // Attach event listener for clicks
-    $(document).on("click", '[data-nav-section]', function (event) {
-      event.preventDefault();
-      var section = $(this).data("nav-section");
-      scrollToSection(section);
     });
+  };
 
     
     
     
-    var mobileMenuToggle = function () {
-      $(".js-colorlib-nav-toggle").on("click", function (event) {
-        event.preventDefault();
-        $("body").toggleClass("offcanvas");
-        $(this).toggleClass("active");
-      });
-
-      $(document).click(function (e) {
-        var $container = $("#colorlib-aside, .js-colorlib-nav-toggle");
-        if (!$container.is(e.target) && $container.has(e.target).length === 0) {
-          $("body").removeClass("offcanvas");
-          $(".js-colorlib-nav-toggle").removeClass("active");
-        }
-      });
-    };
+    
+    
+    
+    
+    
+//    var scrollToSection = function (section) {
+//      var $targetSection = $('section[data-section="' + section + '"]');
+//      if ($targetSection.length) {
+//        $("html, body").animate(
+//          {
+//            scrollTop: $targetSection.offset().top - 55, // Offset for fixed header
+//          },
+//          800
+//        );
+//      }
+//      // Highlight active menu item
+//      $("#navbar ul li").removeClass("active");
+//      $('#navbar ul li a[data-nav-section="' + section + '"]')
+//        .closest("li")
+//        .addClass("active");
+//    };
+//
+//    // Attach event listener for clicks
+//    $(document).on("click", '[data-nav-section]', function (event) {
+//      event.preventDefault();
+//      var section = $(this).data("nav-section");
+//      scrollToSection(section);
+//    });
+//
+//    
+//    
+//    
+//    var mobileMenuToggle = function () {
+//      $(".js-colorlib-nav-toggle").on("click", function (event) {
+//        event.preventDefault();
+//        $("body").toggleClass("offcanvas");
+//        $(this).toggleClass("active");
+//      });
+//
+//      $(document).click(function (e) {
+//        var $container = $("#colorlib-aside, .js-colorlib-nav-toggle");
+//        if (!$container.is(e.target) && $container.has(e.target).length === 0) {
+//          $("body").removeClass("offcanvas");
+//          $(".js-colorlib-nav-toggle").removeClass("active");
+//        }
+//      });
+//    };
     
     
     
