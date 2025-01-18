@@ -21,6 +21,38 @@ body {
 	line-height: 1.8 !important;
 	color: black;
 }
+
+body {
+  background-color: #1b1b1b; /* Dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px; /* Spacing between buttons */
+}
+
+.custom-button {
+  background-color: #6b3bca; /* Purple color */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  padding: 12px 24px; /* Button padding */
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #592aa1; /* Darker purple on hover */
+}
+
+
 @media screen and (max-width: 992px) {
 	body {
 		font-size: 16px;

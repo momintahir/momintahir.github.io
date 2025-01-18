@@ -84,18 +84,11 @@
                 <div class="about-desc">
                   <h1>About</h1>
                   <div id="bio"></div>
-                  <div className="button-greeting-div">
-                    <Button text="Contact me" href="#contact" />
-                    {greeting.resumeLink && (
-                      <a
-                        href={require("./resume.pdf")}
-                        download="Resume.pdf"
-                        className="download-link-button"
-                      >
-                        <Button text="Download my resume" />
-                      </a>
-                    )}
+                  <div class="button-container">
+                    <button class="custom-button">Contact Me</button>
+                    <button class="custom-button">Download My Resume</button>
                   </div>
+
                 </div>
               </div>
             </div>
