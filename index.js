@@ -256,7 +256,7 @@ function populateRepo(items, id) {
     const languageDiv = document.createElement("div");
     languageDiv.style = "display: flex; align-items: center; gap: 4px;";
     languageDiv.innerHTML = `
-          <span style="width: 8px; height: 8px; background-color: #666; border-radius: 50%; display: inline-block;"></span>
+          <span style="width: 8px; height: 8px; background-color: #ffffff; border-radius: 50%; display: inline-block;"></span>
           ${items[i].language}
       `;
     statsRow.appendChild(languageDiv);
@@ -265,7 +265,7 @@ function populateRepo(items, id) {
     const starsDiv = document.createElement("div");
     starsDiv.style = "display: flex; align-items: center; gap: 4px;";
     starsDiv.innerHTML = `
-          <img src="https://img.icons8.com/ios-filled/16/666666/star--v1.png" alt="Stars">
+          <img src="https://img.icons8.com/ios-filled/16/ffffff/star--v1.png" alt="Stars">
           ${items[i].stars}
       `;
     statsRow.appendChild(starsDiv);
@@ -274,7 +274,7 @@ function populateRepo(items, id) {
     const forksDiv = document.createElement("div");
     forksDiv.style = "display: flex; align-items: center; gap: 4px;";
     forksDiv.innerHTML = `
-          <img src="https://img.icons8.com/ios-filled/16/666666/code-fork.png" alt="Forks">
+          <img src="https://img.icons8.com/ios-filled/16/ffffff/code-fork.png" alt="Forks">
           ${items[i].forks}
       `;
     statsRow.appendChild(forksDiv);
