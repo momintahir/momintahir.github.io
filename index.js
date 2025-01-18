@@ -3,7 +3,7 @@ import {
   skills,
   education,
   experience,
-  trekking,
+//  trekking,
   footer,
 } from "./user-data/data.js";
 
@@ -98,21 +98,21 @@ function populateSkills(items, id) {
   });
 }
 
-function populateTrekking(items) {
-  const skillsTag = document.getElementById('trekking');
-  items.forEach((item) => {
-    const h3 = getElement("li", null);
-    h3.innerHTML = item;
-
-    const divProgressWrap = getElement("div", "progress-wrap");
-    divProgressWrap.append(h3);
-
-    const divAnimateBox = getElement("div", "col-md-12 animate-box");
-    divAnimateBox.append(divProgressWrap);
-
-    skillsTag.append(divAnimateBox);
-  });
-}
+//function populateTrekking(items) {
+//  const skillsTag = document.getElementById('trekking');
+//  items.forEach((item) => {
+//    const h3 = getElement("li", null);
+//    h3.innerHTML = item;
+//
+//    const divProgressWrap = getElement("div", "progress-wrap");
+//    divProgressWrap.append(h3);
+//
+//    const divAnimateBox = getElement("div", "col-md-12 animate-box");
+//    divAnimateBox.append(divProgressWrap);
+//
+//    skillsTag.append(divAnimateBox);
+//  });
+//}
 
 function populateBlogs(items, id) {
   const projectdesign = document.getElementById(id);
@@ -456,7 +456,7 @@ fetchReposFromGit(gitRepo);
 fetchGitConnectedData(gitConnected);
 
 populateExp_Edu(experience, "experience");
-populateTrekking(trekking);
+//populateTrekking(trekking);
 populateExp_Edu(education, "education");
 
 populateLinks(footer, "footer");
