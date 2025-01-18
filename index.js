@@ -300,12 +300,12 @@ function populateExp_Edu(items, id) {
 
     let h2TimelineLabel = document.createElement("h2");
     h2TimelineLabel.innerHTML = items[i].title;
-      h2TimelineLabel.style ="color: #ffffff;"
+      h2TimelineLabel.style ="font-weight: bold; color: #ffffff;"
     h2TimelineLabel.append(spanh2);
 
     let divTimelineLabel = document.createElement("div");
     divTimelineLabel.className = "timeline-label";
-      divTimelineLabel.style = "color: #ffffff;"
+      divTimelineLabel.style = "font-weight: bold; color: #ffffff;"
     divTimelineLabel.append(h2TimelineLabel);
     divTimelineLabel.append(spanTimelineSublabel);
 
