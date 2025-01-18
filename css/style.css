@@ -293,7 +293,7 @@ figure figcaption {
 }
 #colorlib-aside .colorlib-footer ul {
 	padding: 0 20px;
-	margin: 0 0 10px 210px;
+	margin: 0 0 10px 0;
 }
 #colorlib-aside .colorlib-footer ul li {
 	padding: 0 20px;
@@ -2066,7 +2066,7 @@ span {
   footer {
 	font-size: 13px;
 	background: var(--footer-bg);
-	padding: 2em 4em;
+	padding: 2em 4em 0px 10px;
 	/* display: flex; */
 	align-items: start;
 	justify-content: center;
