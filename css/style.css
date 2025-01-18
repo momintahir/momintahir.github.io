@@ -520,7 +520,7 @@ figure figcaption {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.github { background-color: #333; background-image: url('https://cdn-icons-png.flaticon.com/512/733/733553.png'); background-size: cover; }
+.github { background-image: url('https://cdn-icons-png.flaticon.com/512/733/733553.png');}
 .linkedin { background-color: #0077b5; background-image: url('https://cdn-icons-png.flaticon.com/512/145/145807.png'); background-size: cover; }
 .email { background-color: #ea4335; background-image: url('https://cdn-icons-png.flaticon.com/512/732/732200.png'); background-size: cover; }
 .gitlab { background-color: #fc6d26; background-image: url('https://cdn-icons-png.flaticon.com/512/5968/5968866.png'); background-size: cover; }
