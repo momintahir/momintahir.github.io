@@ -151,17 +151,8 @@
 //    
 
     
-    var navActive = function (section) {
-      // Activate the navigation menu item
-      var $el = $("#navbar > ul");
-      $el.find("li").removeClass("active");
-      $el.each(function () {
-        $(this)
-          .find('a[data-nav-section="' + section + '"]')
-          .closest("li")
-          .addClass("active");
-      });
-
+    // Scroll and activate the navigation for the given section
+    var scrollToSection = function (section) {
       // Smoothly scroll to the target section
       var $targetSection = $("#" + section);
       if ($targetSection.length) {
@@ -172,13 +163,23 @@
           800 // Duration of the scrolling animation
         );
       }
+
+      // Highlight the navigation item
+      var $el = $("#navbar > ul");
+      $el.find("li").removeClass("active");
+      $el.each(function () {
+        $(this)
+          .find('a[data-nav-section="' + section + '"]')
+          .closest("li")
+          .addClass("active");
+      });
     };
 
-    // Attach event listeners to all elements with data-nav-section attribute
+    // Add event listener for both nav links and button
     $('[data-nav-section]').on('click', function (event) {
-      event.preventDefault(); // Prevent default link/button behavior
-      var section = $(this).data('nav-section'); // Get the target section from data-nav-section
-      navActive(section); // Call navActive with the section name
+      event.preventDefault(); // Prevent default behavior
+      var section = $(this).data('nav-section'); // Get the section to navigate to
+      scrollToSection(section); // Call the scrollToSection function
     });
 
     
