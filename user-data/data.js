@@ -18,22 +18,19 @@ export const experience = [
     icon: "",
   },
   {
-    title: "Biofourmis India Private Limited",
-    duration: "April 2022 - Jul 2023",
-    subtitle: "Software Engineer",
+    title: "Softech Systems Private Limited",
+    duration: "November 2019 - October 2021",
+    subtitle: "Senior Android Developer",
     details: [
-      `Implemented microfrontends using the Module Federation Plugin in Angular.
-            Rendered components from remote modules/repositories, enabling a modular and scalable architecture`,
-      `Upgraded application with a dynamic base URL for flexible operation across multiple regions and verticals, leading to
-            recognition with the Biofourmis Bravo award in Q1, 2023.`,
-      `Implemented RxState for managing local state in components, resulting in elegant and reactive facades.`,
-      `Utilized Twilio-Video for group video call rooms and Countly for Web Analytics.`,
-      `Integrated NGXS WebSocket, enhancing state management and replacing legacy service injections.`,
-      `Implemented extensive RxJS usage for reactive programming, resulting in efficient data handling, improved state
-            management, and enhanced application performance.`,
-      `Dramatically optimized load time and performance through code splitting, lazy loading, caching, and preload`,
-      `Enhanced video call experience by implementing real-time switching of I/O devices and audio level indicators,
-            resulting in reduced audio issues and increased user satisfaction.`,
+      "Collaborated with backend teams to integrate RESTful APIs, ensuring smooth data exchange between the app and the server.",
+      
+      "Increased user retention by 15% through enhanced user interaction features.",
+      "Led the team in switching to Kotlin for Android development, which made the code simpler and improved the app's performance and reduced crash rates by 25%",
+      "Fixed real time data update issues which improved customer satisfaction.",
+      "Improved login waiting time which boosted user engagement by 20%",
+      "Created an android library of Alfa Securities which supports the Bank Alfalah app.",
+      "Reduced codebase complexity by 30% and improving Gradle build time",
+      "Updated libraries to allow this library to support older Android Sdk’s",
       `Owned and led successful Angular application upgrades from version 12 to 13 and 14, improving performance
             and enhancing features.`,
     ],
