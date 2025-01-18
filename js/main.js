@@ -108,16 +108,16 @@
     });
   };
 
-  var navActive = function (section) {
-    var $el = $("#navbar > ul");
-    $el.find("li").removeClass("active");
-    $el.each(function () {
-      $(this)
-        .find('a[data-nav-section="' + section + '"]')
-        .closest("li")
-        .addClass("active");
-    });
-  };
+//  var navActive = function (section) {
+//    var $el = $("#navbar > ul");
+//    $el.find("li").removeClass("active");
+//    $el.each(function () {
+//      $(this)
+//        .find('a[data-nav-section="' + section + '"]')
+//        .closest("li")
+//        .addClass("active");
+//    });
+//  };
 
     
     
@@ -127,29 +127,29 @@
     
     
     
-//    var scrollToSection = function (section) {
-//      var $targetSection = $('section[data-section="' + section + '"]');
-//      if ($targetSection.length) {
-//        $("html, body").animate(
-//          {
-//            scrollTop: $targetSection.offset().top - 55, // Offset for fixed header
-//          },
-//          800
-//        );
-//      }
-//      // Highlight active menu item
-//      $("#navbar ul li").removeClass("active");
-//      $('#navbar ul li a[data-nav-section="' + section + '"]')
-//        .closest("li")
-//        .addClass("active");
-//    };
-//
-//    // Attach event listener for clicks
-//    $(document).on("click", '[data-nav-section]', function (event) {
-//      event.preventDefault();
-//      var section = $(this).data("nav-section");
-//      scrollToSection(section);
-//    });
+    var scrollToSection = function (section) {
+      var $targetSection = $('section[data-section="' + section + '"]');
+      if ($targetSection.length) {
+        $("html, body").animate(
+          {
+            scrollTop: $targetSection.offset().top - 55, // Offset for fixed header
+          },
+          800
+        );
+      }
+      // Highlight active menu item
+      $("#navbar ul li").removeClass("active");
+      $('#navbar ul li a[data-nav-section="' + section + '"]')
+        .closest("li")
+        .addClass("active");
+    };
+
+    // Attach event listener for clicks
+    $(document).on("click", '[data-nav-section]', function (event) {
+      event.preventDefault();
+      var section = $(this).data("nav-section");
+      scrollToSection(section);
+    });
 //
 //    
 //    
