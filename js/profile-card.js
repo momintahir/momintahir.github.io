@@ -24,7 +24,7 @@ window.addEventListener("DOMContentLoaded", async function () {
     const profileLink = website_url || link;
 
     el.innerHTML = `
-        <a href="${profileLink}" target="_blank" style="text-decoration: none; color: black; display: block; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, rgb(255, 99, 132), rgb(75, 0, 130)); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out;">
+        <a href="${profileLink}" target="_blank" style="text-decoration: none; color: white; display: block; border-radius: 12px; padding: 16px; font-size: 14px; background: linear-gradient(135deg, rgb(255, 99, 132), rgb(75, 0, 130)); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); transition: transform 0.2s ease-in-out;">
             <div style="display: flex; align-items: center; gap: 12px;">
                 <img style="width: 60px; height: 60px; border-radius: 50%; border: 2px solid #fff;" src="${profile_image}" alt="Profile image"></img>
                 <div style="flex-grow: 1;">
