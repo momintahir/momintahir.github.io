@@ -223,7 +223,7 @@ function populateRepo(items, id) {
     repoLink.href = `https://github.com/${items[i].author}/${items[i].name}`;
     repoLink.target = "_blank";
     repoLink.style =
-      "text-decoration: none; color: black; display: block; height: 100%;";
+      "text-decoration: none; color: #ffffff; display: block; height: 100%;";
 
     repoCard.appendChild(repoLink);
 
@@ -231,7 +231,7 @@ function populateRepo(items, id) {
     const repoName = document.createElement("h4");
     repoName.className = "repo-heading";
     repoName.innerHTML = items[i].name;
-    repoName.style = "margin: 0; font-size: 18px; font-weight: bold; color: white";
+    repoName.style = "margin: 0; font-size: 18px; font-weight: bold; color: #ffffff;";
     repoLink.appendChild(repoName);
 
     // Repository description
@@ -249,7 +249,7 @@ function populateRepo(items, id) {
           gap: 16px; 
           margin-top: 12px; 
           font-size: 12px; 
-          color: #666;
+          color: #ffffff;
       `;
 
     // Language
