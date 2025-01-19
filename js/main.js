@@ -123,14 +123,6 @@
       var $el = $("#" + buttonId);
       $el.siblings("button").removeClass("active");
       $el.addClass("active");
-        
-        
-        var sectionId = $el.data("nav-section");
-        if (sectionId) {
-          $("html, body").animate({
-            scrollTop: $("#" + sectionId).offset().top
-          }, 500);
-        }
     };
     
 
