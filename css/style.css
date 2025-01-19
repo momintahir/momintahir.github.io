@@ -325,7 +325,7 @@ figure figcaption {
 #colorlib-aside .colorlib-footer ul li a:focus {
 	text-decoration: none;
 	outline: none;
-	color: black;
+    color: white;
 }
 
 .container-wrap {
@@ -2107,7 +2107,7 @@ span {
 
 :root {
 	--footer-bg: linear-gradient(135deg, rgb(255, 99, 132), rgb(75, 0, 130));
-	--color: #000;
+	--color: #ffffff;
 	--color-smooth: #000;
 	--input-border: #3a456a;
 	--btn-bg-color: #f1f2fc;
