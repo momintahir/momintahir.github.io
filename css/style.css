@@ -522,7 +522,7 @@ figure figcaption {
 
 .github { background-color: #333; background-image: url('https://cdn-icons-png.flaticon.com/512/733/733553.png'); background-size: cover; }
 .linkedin { background-color: #0077b5; background-image: url('https://cdn-icons-png.flaticon.com/512/145/145807.png'); background-size: cover; }
-.email { background-color: #ea4335; background-image: url('https://cdn-icons-png.flaticon.com/512/732/732200.png'); background-size: cover; }
+.email { background-color: #ea4335; background-image: url('https://cdn-icons-png.flaticon.com/512/732/732200.png'); background-size: contain; }
 .gitlab { background-color: #fc6d26; background-image: url('https://cdn-icons-png.flaticon.com/512/5968/5968866.png'); background-size: cover; }
 .facebook { background-color: #3b5998; background-image: url('https://cdn-icons-png.flaticon.com/512/733/733547.png'); background-size: cover; }
 .medium { background-color: #000; background-image: url('https://cdn-icons-png.flaticon.com/512/5968/5968906.png'); background-size: cover; }
