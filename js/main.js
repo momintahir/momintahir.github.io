@@ -165,7 +165,6 @@
     clickMenu();
     navigationSection();
     mobileMenuOutsideClick();
-    buttonActive('contactButton');
     detectDayNightMode();
   });
 })();
