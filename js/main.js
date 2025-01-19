@@ -121,10 +121,17 @@
     
     var buttonActive = function (buttonId) {
       var $el = $("#" + buttonId);
+      var sectionId = $el.data("nav-section");
+      
       $el.siblings("button").removeClass("active");
       $el.addClass("active");
+
+      if (sectionId) {
+        $("html, body").animate({
+          scrollTop: $("#" + sectionId).offset().top
+        }, 500);
+      }
     };
-    
 
     
     document.querySelectorAll('.icon').forEach((icon) => {
