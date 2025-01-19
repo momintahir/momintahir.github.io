@@ -118,6 +118,12 @@
         .addClass("active");
     });
   };
+    
+    var buttonActive = function (buttonId) {
+      var $el = $("#" + buttonId);
+      $el.siblings("button").removeClass("active");
+      $el.addClass("active");
+    };
 
     
     document.querySelectorAll('.icon').forEach((icon) => {
@@ -165,6 +171,7 @@
     clickMenu();
     navigationSection();
     mobileMenuOutsideClick();
+    buttonActive('contactButton');
     detectDayNightMode();
   });
 })();
