@@ -459,4 +459,4 @@ populateExp_Edu(experience, "experience");
 //populateTrekking(trekking);
 populateExp_Edu(education, "education");
 
-populateLinks(footer, "footer");
+//populateLinks(footer, "footer");
