@@ -120,7 +120,7 @@
   };
     
     var buttonActive = function (buttonId) {
-      var $el = $("#" + buttonId);
+      var $el = $(buttonId);
       $el.siblings("button").removeClass("active");
       $el.addClass("active");
     };
