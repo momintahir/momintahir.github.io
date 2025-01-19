@@ -1412,7 +1412,7 @@ body.offcanvas .colorlib-nav-toggle {
   color: white;
   border: none;
   border-radius: 8px; /* Rounded corners */
-  padding: 4px 12px; /* Button padding */
+  padding: 8px 8px; /* Button padding */
   font-size: 16px;
   font-family: Arial, sans-serif;
   cursor: pointer;
