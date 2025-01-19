@@ -86,10 +86,20 @@
                   <div id="bio"></div>
                   <div class="button-container">
                         <button class="custom-button" data-nav-section="contact" id="contactButton">CONTACT</button>
-                    <button
+                    <button id="downloadResumeButton"
                         onclick="downloadResume()"
                         class="custom-button">DOWNLOAD MY RESUME</button>
                   </div>
+                  
+                  <script>
+                    function downloadResume() {
+                      var resumeLink = "resume.pdf";  // Adjust the filename as needed
+                      var link = document.createElement('a');
+                      link.href = resumeLink;
+                      link.download = resumeLink;  // Sets the file name
+                      link.click();  // Triggers the download
+                    }
+                  </script>
                   
                   <body>
                     <div class="icon-container" style="padding-top: 20px;">
