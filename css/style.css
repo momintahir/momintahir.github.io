@@ -2172,11 +2172,11 @@ span {
 .copyright-text p {
 	margin-top: 0px;
 	margin-bottom: 0px;
-	color: black;
+    color: white;
 }
 
 .readmore {
-	color: #000;
+	color: #ffffff;
 }
 .readmore p{
 	padding-bottom: 10px;
