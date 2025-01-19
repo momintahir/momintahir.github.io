@@ -91,6 +91,7 @@
                         class="custom-button">DOWNLOAD MY RESUME</button>
                   </div>
                   
+                  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
                   <script>
                     function downloadResume() {
                       var resumeLink = "resume.pdf";  // Adjust the filename as needed
@@ -99,6 +100,20 @@
                       link.download = resumeLink;  // Sets the file name
                       link.click();  // Triggers the download
                     }
+                      
+                      
+                      function scrollToContactSection() {
+                        var sectionId = 'contact';  // ID of the contact section
+                        $('html, body').animate({
+                          scrollTop: $("#" + sectionId).offset().top
+                        }, 500);  // Smooth scroll to the section with a duration of 500ms
+                      }
+
+                      // Attach the function to the button's click event
+                      $('#contactButton').click(function() {
+                        scrollToContactSection();
+                      });
+                      
                   </script>
                   
                   <body>

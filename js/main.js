@@ -118,14 +118,6 @@
         .addClass("active");
     });
   };
-    
-//    function downloadResume() {
-//      var resumeLink = "resume.pdf";  // Adjust the filename as needed
-//      var link = document.createElement('a');
-//      link.href = resumeLink;
-//      link.download = resumeLink;  // Sets the file name
-//      link.click();  // Triggers the download
-//    }
 
     
     document.querySelectorAll('.icon').forEach((icon) => {
@@ -134,7 +126,6 @@
       });
     });
 
-    
     
     
   var navigationSection = function () {
@@ -173,7 +164,6 @@
     clickMenu();
     navigationSection();
     mobileMenuOutsideClick();
-//      downloadResume();
     detectDayNightMode();
   });
 })();
