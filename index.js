@@ -321,6 +321,7 @@ function populateExp_Edu(items, id) {
     for (let j = 0; j < items[i].tags.length; j++) {
       let spanTags = document.createElement("span");
       spanTags.className = "badge";
+        spanTags.style = "color: #ffffff;"
       spanTags.innerHTML = items[i].tags[j];
       divTags.append(spanTags);
     }
