@@ -93,17 +93,8 @@ export const education = [
 
 export const footer = [
   {
-    label: "Links",
-    data: [
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
-      {
-        text: "Github",
-        link: "https://github.com/momintahir",
-      },
-    ],
+    label: "",
+    data: [],
   },
   {
     label: "copyright-text",
