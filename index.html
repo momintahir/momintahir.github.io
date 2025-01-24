@@ -202,6 +202,132 @@
               </ul>
             </div>
           </section>
+          
+          <title>Big Projects</title>
+              <style>
+                  body {
+                      font-family: Arial, sans-serif;
+                      margin: 0;
+                      padding: 0;
+                      background-color: #1a1a2e;
+                      color: #ffffff;
+                  }
+
+                  .projects-container {
+                      max-width: 1200px;
+                      margin: 0 auto;
+                      padding: 20px;
+                      text-align: center;
+                  }
+
+                  h1 {
+                      font-size: 2.5rem;
+                      margin-bottom: 10px;
+                  }
+
+                  h2 {
+                      font-size: 1.2rem;
+                      color: #cccccc;
+                      margin-bottom: 30px;
+                  }
+
+                  .projects-grid {
+                      display: grid;
+                      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                      gap: 20px;
+                  }
+
+                  .project-card {
+                      background-color: #212946;
+                      border-radius: 10px;
+                      overflow: hidden;
+                      padding: 20px;
+                      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                      transition: transform 0.3s ease, box-shadow 0.3s ease;
+                  }
+
+                  .project-card:hover {
+                      transform: translateY(-5px);
+                      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+                  }
+
+                  .project-card img {
+                      max-width: 100%;
+                      height: auto;
+                      display: block;
+                      margin: 0 auto 20px;
+                  }
+
+                  .project-title {
+                      font-size: 1.5rem;
+                      margin-bottom: 10px;
+                  }
+
+                  .project-description {
+                      font-size: 0.9rem;
+                      color: #cccccc;
+                      margin-bottom: 20px;
+                  }
+
+                  .project-button {
+                      background-color: #6c63ff;
+                      color: #ffffff;
+                      padding: 10px 20px;
+                      border: none;
+                      border-radius: 5px;
+                      text-decoration: none;
+                      font-weight: bold;
+                      transition: background-color 0.3s ease;
+                  }
+
+                  .project-button:hover {
+                      background-color: #504bdb;
+                  }
+
+                  @media (max-width: 768px) {
+                      h1 {
+                          font-size: 2rem;
+                      }
+
+                      h2 {
+                          font-size: 1rem;
+                      }
+
+                      .project-card {
+                          padding: 15px;
+                      }
+
+                      .project-title {
+                          font-size: 1.2rem;
+                      }
+
+                      .project-description {
+                          font-size: 0.8rem;
+                      }
+                  }
+              </style>
+
+              <body>
+                  <div class="projects-container">
+                      <h1>Big Projects</h1>
+                      <h2>SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH</h2>
+                      <div class="projects-grid">
+                          <div class="project-card">
+                              <img src="saayahealth-logo.png" alt="Saayahealth Logo">
+                              <div class="project-title">Saayahealth</div>
+                              <div class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                              <a href="#" class="project-button">Visit Website</a>
+                          </div>
+                          <div class="project-card">
+                              <img src="nextu-logo.png" alt="Nextu Logo">
+                              <div class="project-title">Nextu</div>
+                              <div class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                              <a href="#" class="project-button">Visit Website</a>
+                          </div>
+                      </div>
+                  </div>
+              </body>
+          
           <section class="colorlib-blogs no-print" data-section="blogs">
             <div class="colorlib-narrow-content">
               <div
